@@ -1,4 +1,4 @@
-# FlatGem - Bulk AI File Processor for Google Gemini API 🤖
+# FlatGem - Bulk AI File Processor for Gemini API 🤖
 
 ### You're Smart Enough to Use AI. So Why Are You Still Copy-Pasting Files Like a Robot?
 
