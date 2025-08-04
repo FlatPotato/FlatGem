@@ -60,7 +60,7 @@ class DonationDialog(QDialog):
         main_layout.addWidget(tab_widget)
 
         # --- Wallet Addresses ---
-        # TODO: Replace these placeholder addresses with your actual wallet addresses.
+        # DONE: Replace these placeholder addresses with your actual wallet addresses.
         wallets = {
             "BTC": ("bc1qlaptx3uvyzs83dejakdq647nn82qqwd3t3w97l", "Bitcoin (BTC)"),
             "ETH": ("0xc395bD0E7e257835b03D62195f08980cCB3bcC27", "Ethereum (ETH)"),
