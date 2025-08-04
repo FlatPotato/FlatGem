@@ -1,0 +1,18 @@
+<h3>Think like a programmer, not a conversationalist</h3>
+The AI is a powerful but literal tool. To get perfect results, you must give it perfect instructions. A short phrase like "translate this" is not enough.
+<br><br>
+A professional prompt is a detailed set of rules, like programming a robot. You must define the AI's <b>role</b>, its <b>task</b>, and a strict list of <b>rules and constraints</b>.
+<br><br>
+<b>Key Components of a Great Prompt:</b>
+
+<br><br>> Role-Playing: Start with "You are a..." (e.g., "You are an expert technical writer."). This puts the AI in the right context.
+<br><br>> Clear Goal: State the primary objective clearly (e.g., "Your task is to reformat the user's text...").
+<br><br>> Strict Rules (DOs): Explicitly list what the AI MUST do (e.g., "Convert all timestamps to ISO 8601 format.").
+<br><br>> Strict Constraints (DON'Ts): Be even more specific about what the AI must NOT do (e.g., "DO NOT alter the spelling of proper nouns."). This is often the most important part.
+<br><br>> Output Formatting: Tell the AI exactly what its final output should be (e.g., "Return ONLY the full, modified text, without any extra comments or phrases like 'Here is your text'."). For clean text, add: "DO NOT use Markdown formatting.".
+<br><br>
+The more detailed and unambiguous your rules, the closer to perfect your results will be.
+<br><br>
+<b>Pro-Tip: Let the AI Write Prompts for You</b>
+<br>
+AI is excellent at generating detailed prompts. Describe your goal in simple terms and ask it to create a well-structured prompt for itself, following all the rules above.

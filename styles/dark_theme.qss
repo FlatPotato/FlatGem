@@ -1,0 +1,178 @@
+/* styles/dark_theme.qss */
+/* A professional, cool-toned dark theme for the FlatGem application. */
+
+QWidget {
+    background-color: #292b36;
+    color: #e6e7f0;
+    font-family: 'Roboto', 'Segoe UI', 'Arial', sans-serif;
+    font-size: 11pt;
+}
+
+QMainWindow {
+    background-color: #292b36;
+}
+
+QLabel {
+    background-color: transparent;
+    color: #c5c5d4;
+}
+
+QLabel#TitleLabel {
+    color: #e6e7f0;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+QFrame#Separator {
+    max-height: 2px;
+    border: none;
+    background-color: #383a4a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* --- Buttons --- */
+QPushButton {
+    background-color: #4f5263;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+QPushButton:hover { background-color: #626678; }
+QPushButton:pressed { background-color: #424553; }
+QPushButton:disabled { background-color: #383a4a; color: #7a7d8f; }
+
+QPushButton#PrimaryButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+QPushButton#PrimaryButton:hover { background-color: #009cff; }
+QPushButton#PrimaryButton:pressed { background-color: #0056b3; }
+QPushButton#PrimaryButton:disabled { background-color: #3a5370; color: #7a7d8f; }
+
+QPushButton#UtilityButton {
+    background-color: #313341;
+    color: #c5c5d4;
+    padding: 10px 16px;
+    font-size: 10pt;
+    border: none;
+    border-radius: 8px;
+}
+QPushButton#UtilityButton:hover { background-color: #424553; }
+QPushButton#UtilityButton[popupMode="1"] { padding-right: 16px; }
+QPushButton#UtilityButton::menu-indicator { image: none; }
+
+/* --- Donate Button Style --- */
+/* The icon is now drawn manually, so we only style the button itself. */
+QPushButton#DonateButton {
+    background-color: #313341;
+    color: #ffc107; /* Yellow color for text */
+    padding: 10px 16px;
+    font-size: 10pt;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    /* The text needs to be shifted to the right to make space for the icon */
+    padding-left: 30px;
+}
+QPushButton#DonateButton:hover {
+    background-color: #4a4d5e;
+}
+QPushButton#DonateButton:pressed {
+    background-color: #2b2d38;
+}
+/* The disabled state will now correctly use the global disabled style */
+/* for the background, but the text color will be inherited from this rule. */
+/* The icon itself is static and will not change. */
+QPushButton#DonateButton:disabled {
+    color: #ffc107; /* Force keep the yellow color for text */
+}
+
+
+/* --- Stop Button Style --- */
+QPushButton#StopButton {
+    background-color: #c03b2b;
+    color: white;
+    font-weight: bold;
+}
+QPushButton#StopButton:hover {
+    background-color: #e74c3c;
+}
+QPushButton#StopButton:pressed {
+    background-color: #a5281a;
+}
+
+QMenu { background-color: #313341; border: 1px solid #4f5263; border-radius: 6px; padding: 4px; }
+QMenu::item { padding: 6px 12px; border-radius: 4px; }
+QMenu::item:selected { background-color: #007bff; }
+
+/* --- Input Fields (QLineEdit, QTextEdit, and new QSpinBox) --- */
+QLineEdit, QTextEdit, QSpinBox {
+    background-color: #21232c;
+    border: 1px solid #4f5263;
+    padding: 8px;
+    border-radius: 8px;
+    color: #e6e7f0;
+}
+
+QLineEdit:focus, QTextEdit:focus, QSpinBox:focus {
+    border: 1px solid #007bff;
+}
+
+QSpinBox { padding-right: 15px; }
+
+/* --- ComboBox --- */
+QComboBox {
+    background-color: #313341;
+    border: 2px solid #4f5263;
+    border-radius: 8px;
+    padding: 8px;
+    min-height: 22px;
+}
+QComboBox:focus { border: 2px solid #007bff; }
+QComboBox::drop-down { border: 0px; }
+QComboBox::down-arrow { image: url(assets/icons/down_arrow.png); width: 12px; height: 12px; margin-right: 5px; }
+QComboBox QAbstractItemView {
+    background-color: #313341;
+    border: 1px solid #4f5263;
+    selection-background-color: #007bff;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+QToolTip {
+    background-color: #313341;
+    color: #e6e7f0;
+    border: 1px solid #4f5263;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+/* --- Scrollbar Styling --- */
+QScrollBar:vertical {
+    border: none; background: #292b36; width: 10px; margin: 0px;
+}
+QScrollBar::handle:vertical {
+    background: #4f5263; min-height: 20px; border-radius: 5px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0px; }
+
+QScrollBar:horizontal {
+    border: none; background: #292b36; height: 10px; margin: 0px;
+}
+QScrollBar::handle:horizontal {
+    background: #4f5263; min-width: 20px; border-radius: 5px;
+}
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { width: 0px; }
+QScrollBar::add-page, QScrollBar::sub-page { background: none; }
+
+/* --- ProgressBar --- */
+QProgressBar {
+    border: 1px solid #4f5263; border-radius: 8px; background-color: #21232c; text-align: center; color: #e6e7f0;
+}
+QProgressBar::chunk {
+    background-color: #007bff; border-radius: 7px;
+}
