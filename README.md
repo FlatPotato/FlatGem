@@ -1,10 +1,8 @@
 <p align="center"><img width="1136" height="500" alt="flatgembannerwide" src="https://github.com/user-attachments/assets/ecb73d9b-c275-41f4-b9d5-6b4a1971f233" /></p>
-<h1 align="center">FlatGem - Bulk AI File Processor for Gemini API 🤖</h1>
-
 
 <img width="1919" height="1013" alt="Знімок екрана 2025-07-31 155523" src="https://github.com/user-attachments/assets/9573b35d-7502-4c7f-b6ea-39ffa3786761" />
 
----
+<h1 align="center">FlatGem - Bulk AI File Processor for Gemini API 🤖</h1>
 
 ### You're Smart Enough to Use AI. So Why Are You Still Copy-Pasting Files Like a Robot?
 
