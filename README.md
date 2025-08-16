@@ -1,4 +1,5 @@
-<img width="1248" height="500" alt="flatgembannerabove" src="https://github.com/user-attachments/assets/07bfae44-f928-4370-90a7-b543d0535fbf" />
+<p align="center"><img width="630" height="500" alt="flatgembanner" src="https://github.com/user-attachments/assets/638a17ac-5649-416e-9c44-7684ef05411b" /></p>
+
 
 <h1 align="center">FlatGem - Bulk AI File Processor for Gemini API 🤖</h1>
 
