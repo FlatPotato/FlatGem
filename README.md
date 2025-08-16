@@ -2,7 +2,7 @@
 
 <img width="1919" height="1013" alt="Знімок екрана 2025-07-31 155523" src="https://github.com/user-attachments/assets/9573b35d-7502-4c7f-b6ea-39ffa3786761" />
 
-<h1 align="center">
+<h1>
   FlatGem - Bulk AI File Processor for Gemini API 🤖
 </h1>
 
